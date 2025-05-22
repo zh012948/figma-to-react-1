@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
+
+.container {
+    padding-top: 190px;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    font-family: inter, san-serif;
+    line-height: 1.2;
+    background: rgb(245 247 250 / var(--tw-bg-opacity, 1));
+    scroll-behavior: smooth;
+}
+
+
+h1,
+.green-text {
+    font-size: 44px;
+}
+
+.btnRegister {
+    padding: 14px 22px;
+    background: green;
+    border-radius: 4px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.12s ease-in;
+    transition: 0.3s ease-out background-color;
+}
+
+.question-text {
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+.hero-img {
+    width: max-content;
+}
+
+.content {
+    padding-top: 50px;
+}
+
+
+.btnRegister:hover {
+    background: rgb(41, 176, 41);
+}
+
+.btnRegister:active {
+    background-color: rgb(133, 132, 132);
+    /* background-color: red; */
+
+}
+
+.green-text {
+    color: green;
+    font-weight: 800;
+}
+
+.question-text {
+    color: grey;
+}

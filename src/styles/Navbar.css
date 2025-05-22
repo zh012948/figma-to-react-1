@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: inter, san-serif;
+}
+
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    height: 70px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    z-index:1000;
+    /* margin-left: 130px; */
+    /* justify-content: space-between; */
+    /* margin-right: 130px; */
+    /* padding: 12px; */
+
+
+}
+
+
+
+
+.navbar ul {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 10px;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.navbar ul .btnRegister {
+    margin: 22px;
+    color: white;
+    text-align: center;
+    border: none;
+    padding: 12px;
+    background: rgb(4, 146, 4);
+    transition: 0.12s ease;
+
+}
+
+.navbar ul li a:hover {
+    color: green;
+}
+
+.navbar ul .btnRegister:hover {
+    background: rgb(41, 176, 41);
+    color: white;
+
+}
+
+.logo img {
+    width: 110px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.logo img:hover {
+    scale: 1.2;
+}

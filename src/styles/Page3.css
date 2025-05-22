@@ -1,0 +1,110 @@
+.page-container {
+    height: 100vh;
+    padding-top: 70px;
+    font-family: inter, san-serif;
+}
+
+
+.upper-container img {
+    height: auto;
+}
+
+
+.upper-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.upper-container .content {
+    width: 550px;
+    text-align: justify;
+    transform: translateY(-50px);
+}
+
+.content .title {
+    line-height: 1.4;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+
+
+.btnLearnMore {
+    margin-top: 40px;
+    padding: 12px 20px;
+    cursor: pointer;
+    background: green;
+    color: white;
+    border: none;
+}
+
+.btnLearnMore:hover {
+    opacity: 0.8;
+}
+
+.content .text {
+    margin-top: 12px;
+}
+
+
+
+.lower-container {
+    margin-top: 7px;
+    background: rgb(245 247 250 / var(--tw-bg-opacity, 1));
+    height: 190px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 18px;
+}
+
+.member-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+
+
+.member-card {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+
+.member-card .count {
+    font-weight: bold;
+}
+
+.member-container .member-card img {
+    width: 24px;
+    height: auto;
+}
+
+.lower-container .info {
+    margin-top: 30px;
+    line-height: 1.5;
+
+}
+
+.lower-container .info1 {
+    font-size: 1.4rem;
+    font-weight: bold;
+
+}
+
+.lower-container .info2 {
+    color: rgb(66 160 70 / var(--tw-text-opacity, 1));
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.lower-container .info3 {
+    color: rgb(77 77 77 / var(--tw-text-opacity, 1));
+    font-size: 0.75rem;
+}
