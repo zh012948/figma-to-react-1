@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
+
+.page4-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: inter, san-serif;
+    height: 100vh;
+    padding-top: 20px;
+    scroll-behavior: smooth;
+
+
+}
+
+.image-container img {
+    width: 30vw;
+}
+
+.content-container {
+    width: 50vw;
+}
+
+.heading {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.content-para {
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    text-align: justify;
+}
+
+.learn-more {
+    margin-top: 30px;
+    padding: 13px 15px;
+    background-color: rgb(66 160 70 / var(--tw-bg-opacity, 1));
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out all;
+}
+
+.learn-more:hover {
+    opacity: 0.87;
+}
+
+.learn-more:active {
+    opacity: 1.2;
+}
