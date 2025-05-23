@@ -20,7 +20,7 @@ nav {
     background: white;
     height: 70px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.12);
-    z-index:1000;
+    z-index: 1000;
     /* margin-left: 130px; */
     /* justify-content: space-between; */
     /* margin-right: 130px; */
@@ -79,4 +79,32 @@ nav {
 
 .logo img:hover {
     scale: 1.2;
+}
+
+
+/* Already included nav styling remains the same */
+
+nav {
+    transition: top 0.3s ease-in-out;
+}
+
+/* New classes to hide/show navbar */
+.navbar-hidden {
+    top: -100px;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    transition: top 0.3s ease-in-out;
+}
+
+.navbar-visible {
+    top: 0;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    transition: top 0.3s ease-in-out;
 }

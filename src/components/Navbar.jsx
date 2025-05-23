@@ -1,9 +1,30 @@
+import React, { useState, useEffect } from 'react'
 import '../styles/Navbar.css'
 import logo from '../assets/images/logo.png'
 function Navbar() {
+    const [showNavbar, setShowNavbar] = useState(true);
+    const [lastScrollY, setLastScrollY] = useState(0);
+
+    const controlNavbar = () => {
+        if (window.scrollY > lastScrollY) {
+            // scrolling down
+            setShowNavbar(false);
+        } else {
+            // scrolling up
+            setShowNavbar(true);
+        }
+        setLastScrollY(window.scrollY);
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', controlNavbar);
+        return () => window.removeEventListener('scroll', controlNavbar);
+    }, [lastScrollY]);
+
+
     return (
         <>
-            <nav>
+            <nav className={showNavbar ? 'navbar-visible' : 'navbar-hidden'}>
                 <div className="logo"><img src={logo} alt="logo" /></div>
                 <div className="navbar">
                     <ul>
