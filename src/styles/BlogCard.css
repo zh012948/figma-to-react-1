@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
+
+.b-container {
+    font-family: inter, san-serif;
+}
+
+
+.img-container {
+    width: 300px;
+    overflow: hidden;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.img-container img {
+    height: 270px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+
+}
+
+.b-container img:hover {
+    transform: scale(1.2);
+}
+
+.b-container .sub-card {
+    border: 1px solid #e5e7eb;
+    background-color: rgb(245 247 250 / var(--tw-bg-opacity, 1));
+    border-radius: 12px;
+    width: 280px;
+    font-size: 0.75rem;
+    padding: 12px;
+    /* transform: translateX(24px);
+    transform: translateY(-30px); */
+
+    transform: translate(31px, -70px);
+}
+
+.sub-card a {
+    text-decoration: none;
+    color: rgb(4, 191, 4);
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 2.1;
+    transition: 0.2s ease;
+}
+
+.sub-card a:hover {
+    opacity: 0.8;
+}
